@@ -5,6 +5,8 @@ import { Helmet, HelmetProvider } from 'react-helmet-async';
 import { theme } from 'theme/theme';
 import logo from 'logo.svg';
 
+import 'normalize.css';
+
 const StyledWrapper = styled.div`
   text-align: center;
 `;
